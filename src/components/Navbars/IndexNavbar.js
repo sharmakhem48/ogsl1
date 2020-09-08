@@ -80,10 +80,10 @@ function IndexNavbar() {
             <Nav navbar>
             <NavItem>
               <NavLink
-                href="/ogsl"
+                href="#ogsl"
                 onClick={(e) => {
                   document
-                    .getElementById("homepage")
+                    .getElementById("ogsl")
                     .scrollIntoView();
                 }}
               >

@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route } from 'react-router-dom';
+import {BrowserRouter as Router} from "react-router-dom";
 
 // reactstrap components
 // import {
@@ -30,7 +30,7 @@ function Index() {
     };
   });
   return (
-    <div>
+    <div id='ogsl'>
       <IndexNavbar />
         <IndexHeader />
         <Typography />
