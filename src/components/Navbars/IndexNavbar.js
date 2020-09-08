@@ -80,7 +80,7 @@ function IndexNavbar() {
             <Nav navbar>
             <NavItem>
               <NavLink
-                href="/"
+                href="/ogsl"
                 onClick={(e) => {
                   document
                     .getElementById("homepage")
