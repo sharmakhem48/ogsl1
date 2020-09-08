@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sharmakhem48.github.io/ogsl/static/css/main.5d16a1ee.chunk.css",
-    "main.js": "/sharmakhem48.github.io/ogsl/static/js/main.7b731b84.chunk.js",
-    "main.js.map": "/sharmakhem48.github.io/ogsl/static/js/main.7b731b84.chunk.js.map",
+    "main.css": "/sharmakhem48.github.io/ogsl/static/css/main.106a6086.chunk.css",
+    "main.js": "/sharmakhem48.github.io/ogsl/static/js/main.aeb62280.chunk.js",
+    "main.js.map": "/sharmakhem48.github.io/ogsl/static/js/main.aeb62280.chunk.js.map",
     "runtime-main.js": "/sharmakhem48.github.io/ogsl/static/js/runtime-main.a07a12c4.js",
     "runtime-main.js.map": "/sharmakhem48.github.io/ogsl/static/js/runtime-main.a07a12c4.js.map",
-    "static/js/2.fb8a95c3.chunk.js": "/sharmakhem48.github.io/ogsl/static/js/2.fb8a95c3.chunk.js",
-    "static/js/2.fb8a95c3.chunk.js.map": "/sharmakhem48.github.io/ogsl/static/js/2.fb8a95c3.chunk.js.map",
+    "static/js/2.5f93f519.chunk.js": "/sharmakhem48.github.io/ogsl/static/js/2.5f93f519.chunk.js",
+    "static/js/2.5f93f519.chunk.js.map": "/sharmakhem48.github.io/ogsl/static/js/2.5f93f519.chunk.js.map",
     "index.html": "/sharmakhem48.github.io/ogsl/index.html",
-    "precache-manifest.9bbd768a3bf44df0c3e2c3c4d8754a53.js": "/sharmakhem48.github.io/ogsl/precache-manifest.9bbd768a3bf44df0c3e2c3c4d8754a53.js",
+    "precache-manifest.13918ac09c1c000d6d14a20bffe5d362.js": "/sharmakhem48.github.io/ogsl/precache-manifest.13918ac09c1c000d6d14a20bffe5d362.js",
     "service-worker.js": "/sharmakhem48.github.io/ogsl/service-worker.js",
-    "static/css/main.5d16a1ee.chunk.css.map": "/sharmakhem48.github.io/ogsl/static/css/main.5d16a1ee.chunk.css.map",
-    "static/js/2.fb8a95c3.chunk.js.LICENSE.txt": "/sharmakhem48.github.io/ogsl/static/js/2.fb8a95c3.chunk.js.LICENSE.txt",
+    "static/css/main.106a6086.chunk.css.map": "/sharmakhem48.github.io/ogsl/static/css/main.106a6086.chunk.css.map",
+    "static/js/2.5f93f519.chunk.js.LICENSE.txt": "/sharmakhem48.github.io/ogsl/static/js/2.5f93f519.chunk.js.LICENSE.txt",
     "static/media/now-ui-kit.scss?v=1.4.0": "/sharmakhem48.github.io/ogsl/static/media/nucleo-outline.8ebec31f.woff2",
     "static/media/ogsl_1.jpg": "/sharmakhem48.github.io/ogsl/static/media/ogsl_1.a313eddf.jpg",
     "static/media/ogsl_2.jpg": "/sharmakhem48.github.io/ogsl/static/media/ogsl_2.92c27a23.jpg",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a07a12c4.js",
-    "static/js/2.fb8a95c3.chunk.js",
-    "static/css/main.5d16a1ee.chunk.css",
-    "static/js/main.7b731b84.chunk.js"
+    "static/js/2.5f93f519.chunk.js",
+    "static/css/main.106a6086.chunk.css",
+    "static/js/main.aeb62280.chunk.js"
   ]
 }
