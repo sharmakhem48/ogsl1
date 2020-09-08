@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sharmakhem48.github.io/ogsl/static/css/main.5d16a1ee.chunk.css",
-    "main.js": "/sharmakhem48.github.io/ogsl/static/js/main.918cb88f.chunk.js",
-    "main.js.map": "/sharmakhem48.github.io/ogsl/static/js/main.918cb88f.chunk.js.map",
+    "main.js": "/sharmakhem48.github.io/ogsl/static/js/main.7b731b84.chunk.js",
+    "main.js.map": "/sharmakhem48.github.io/ogsl/static/js/main.7b731b84.chunk.js.map",
     "runtime-main.js": "/sharmakhem48.github.io/ogsl/static/js/runtime-main.a07a12c4.js",
     "runtime-main.js.map": "/sharmakhem48.github.io/ogsl/static/js/runtime-main.a07a12c4.js.map",
     "static/js/2.fb8a95c3.chunk.js": "/sharmakhem48.github.io/ogsl/static/js/2.fb8a95c3.chunk.js",
     "static/js/2.fb8a95c3.chunk.js.map": "/sharmakhem48.github.io/ogsl/static/js/2.fb8a95c3.chunk.js.map",
     "index.html": "/sharmakhem48.github.io/ogsl/index.html",
-    "precache-manifest.8ff0cd2e87f042b3e39c7f9438b0fd81.js": "/sharmakhem48.github.io/ogsl/precache-manifest.8ff0cd2e87f042b3e39c7f9438b0fd81.js",
+    "precache-manifest.9bbd768a3bf44df0c3e2c3c4d8754a53.js": "/sharmakhem48.github.io/ogsl/precache-manifest.9bbd768a3bf44df0c3e2c3c4d8754a53.js",
     "service-worker.js": "/sharmakhem48.github.io/ogsl/service-worker.js",
     "static/css/main.5d16a1ee.chunk.css.map": "/sharmakhem48.github.io/ogsl/static/css/main.5d16a1ee.chunk.css.map",
     "static/js/2.fb8a95c3.chunk.js.LICENSE.txt": "/sharmakhem48.github.io/ogsl/static/js/2.fb8a95c3.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.a07a12c4.js",
     "static/js/2.fb8a95c3.chunk.js",
     "static/css/main.5d16a1ee.chunk.css",
-    "static/js/main.918cb88f.chunk.js"
+    "static/js/main.7b731b84.chunk.js"
   ]
 }
