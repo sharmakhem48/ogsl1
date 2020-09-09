@@ -1,4 +1,5 @@
 import React from "react";
+import './Video.styles.css';
 
 
 // reactstrap components
@@ -13,16 +14,6 @@ import {
 
 // core components
 
-const styleObj2 = {
-    fontSize: 20,
-    backgroundImage:`url(https://cdn.pixabay.com/photo/2019/01/26/11/56/flowers-3956074_960_720.jpg)`,
-    height: '100%',
-    width: '100%',
-    backgroundAttachment:'fixed',
-    backgroundPosition: 'center',
-    backgroundRepeat:'no-repeat',
-    backgroundSize:'cover',
-  }
 
 const items = [
   {
@@ -57,7 +48,7 @@ function VideoSection() {
   };
   return (
     <div id='know-us' >
-      <div className="section-video" id="carousel" 
+      <div className="section-video" id="carousel"
       style={{ backgroundImage:`url(https://cdn.pixabay.com/photo/2019/01/26/11/56/flowers-3956074_960_720.jpg)`}}>
         <Container>
           <div className="title">
