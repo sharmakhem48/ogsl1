@@ -18,4 +18,6 @@
   -moz-background-size:cover;
   background-size: cover;
   background: fixed;
+  height : auto;
+  max-width: 100%;
 }
