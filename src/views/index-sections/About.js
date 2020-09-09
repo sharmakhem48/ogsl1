@@ -18,7 +18,7 @@ from all around the world a unique experience. We offer language courses and cou
 on film making, tattooing,
 art, photography and music. The idea is to learn ON THE GO! So,
 if you are someone who loves to travel and would love to explore India while learning a
-kill set, this is the place to be!
+skill set, this is the place to be!
 All our courses are highly interactive and versatile. We make sure that
 all our students learn in the best possible way.
 The languages that we offer are taught by teachers who don not just know the language,
