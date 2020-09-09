@@ -57,7 +57,8 @@ function VideoSection() {
   };
   return (
     <div id='know-us' >
-      <div className="section" id="carousel" style={styleObj2}>
+      <div className="section-video" id="carousel" 
+      style={{ backgroundImage:`url(https://cdn.pixabay.com/photo/2019/01/26/11/56/flowers-3956074_960_720.jpg)`}}>
         <Container>
           <div className="title">
             <h4 align='center'>CHECK US OUT</h4> <br/><br/>

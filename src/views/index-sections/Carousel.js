@@ -1,4 +1,5 @@
 import React from "react";
+import './Carousel.styles.css';
 
 // reactstrap components
 import {
@@ -44,19 +45,6 @@ const items = [
   },
 ];
 
-const styleObj = {
-    fontSize: 10,
-    display: 'table',
-    color: "white",
-    backgroundImage:`url(https://cdn.pixabay.com/photo/2018/02/03/08/00/background-3127102_960_720.jpg)`,
-    padding :'90px',
-    height: '100%',
-    width: '100%',
-    backgroundAttachment:'fixed',
-    backgroundPositionosition: 'center',
-    backgroundRepeatepeat:'no-repeat',
-    backgroundSize:'cover'
-}
 function CarouselSection() {
   const [activeIndex, setActiveIndex] = React.useState(0);
   const [animating, setAnimating] = React.useState(false);
@@ -81,7 +69,7 @@ function CarouselSection() {
     setActiveIndex(newIndex);
   };
   return (
-      <div className="section" id="carousel" style={styleObj}>
+      <div className="Carousel" id="carousel">
         <Container>
           <div className="title" Align='center'>
             <h1 >PHOTO SPOT</h1>

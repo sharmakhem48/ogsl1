@@ -1,5 +1,6 @@
 /*eslint-disable*/
 import React from "react";
+import './IndexHeader.styles.css'
 
 
 // reactstrap components
@@ -23,27 +24,13 @@ function IndexHeader() {
     }
   });
 
-  const styleObj = {
-      fontSize: 60,
-      display: 'table',
-      color: "#4a54f1",
-      backgroundImage:`url(https://cdn.pixabay.com/photo/2020/02/06/01/52/frame-4822807_960_720.png)`,
-      padding :'200px',
-      height: '100%',
-      width: '100%',
-      backgroundAttachment:'fixed',
-      backgroundPositionosition: 'center',
-      backgroundRepeatepeat:'no-repeat',
-      backgroundSize:'cover'
-  }
-
  const span ={
    textAlign:'center',
    display: 'table-cell',
    verticalAlign:'middle'
  }
   return (
-    <div>
+    <div className='header'>
       <div className="page-header clear-filter" filter-color="white">
         <div
           className="page-header-image"
@@ -53,7 +40,7 @@ function IndexHeader() {
           ref={pageHeader}
         ></div>
       </div>
-      <div className='Container' style={styleObj} >
+      <div className='Container'>
           <span className="h1-seo" style={span} ><strong>Open Gate School of Learning </strong></span>
       </div>
     </div>

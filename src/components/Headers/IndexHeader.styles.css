@@ -1,0 +1,21 @@
+.Container {
+    font-size: 60px;
+    display: table;
+    color: #4a54f1;
+    background :url('https://cdn.pixabay.com/photo/2020/02/06/01/52/frame-4822807_960_720.png');
+    padding :200px;
+    height: 100%;
+    width: 100%;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.header {
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  -moz-background-size:cover;
+  background-size: cover;
+  background: fixed;
+}

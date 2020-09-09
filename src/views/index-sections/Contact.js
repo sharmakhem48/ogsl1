@@ -1,22 +1,10 @@
 import React from "react";
+import './Contact.styles.css';
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
 
 // core components
-
-const styleObj = {
-    fontSize: 20,
-    display: 'table',
-    color: "black",
-    backgroundImage:`url(https://cdn.pixabay.com/photo/2016/11/21/17/52/abstract-1846822_960_720.jpg)`,
-    height: '100%',
-    width: '100%',
-    backgroundAttachment:'fixed',
-    backgroundPositionosition: 'center',
-    backgroundRepeatepeat:'no-repeat',
-    backgroundSize:'fit'
-  }
 
   const spanstyle={
     color:'#00FFFF',
@@ -34,7 +22,8 @@ const styleObj = {
 function Contact() {
   return (
     <div id='contactpage'>
-      <div className="section" style={styleObj}>
+      <div className="section contact"
+      style={{ backgroundImage:`url(https://cdn.pixabay.com/photo/2016/11/21/17/52/abstract-1846822_960_720.jpg)` }} >
         <Container className="text-center">
           <Row className="justify-content-md-center">
             <Col lg="8" md="12">
