@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/png" href="%PUBLIC_URL%/ogsl.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="theme-color" content="#000000" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -29,22 +29,21 @@
       href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
     />
     <title>OGSL</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <style>
-    {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-    @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
-</style>
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    /* elements which are positioned absolutely. */
+    /* Their ultimate offset parent is the viewport */
+    /* prevents those elements from breaking out of the body box. */
+    body {
+        position: relative;
+    }
+    </style>
+  </head>
+  <body class='body'>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
