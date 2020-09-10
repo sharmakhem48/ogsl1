@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ogsl/static/css/main.bc80f1a7.chunk.css",
-    "main.js": "/ogsl/static/js/main.923c3583.chunk.js",
-    "main.js.map": "/ogsl/static/js/main.923c3583.chunk.js.map",
+    "main.css": "/ogsl/static/css/main.ffca34c5.chunk.css",
+    "main.js": "/ogsl/static/js/main.06030eda.chunk.js",
+    "main.js.map": "/ogsl/static/js/main.06030eda.chunk.js.map",
     "runtime-main.js": "/ogsl/static/js/runtime-main.52ce04a8.js",
     "runtime-main.js.map": "/ogsl/static/js/runtime-main.52ce04a8.js.map",
     "static/js/2.c6d3a776.chunk.js": "/ogsl/static/js/2.c6d3a776.chunk.js",
     "static/js/2.c6d3a776.chunk.js.map": "/ogsl/static/js/2.c6d3a776.chunk.js.map",
     "index.html": "/ogsl/index.html",
-    "precache-manifest.de6f8e4e35ee443d86cc9cfe569ca2fb.js": "/ogsl/precache-manifest.de6f8e4e35ee443d86cc9cfe569ca2fb.js",
+    "precache-manifest.027278d5ba262489294ddcdadc6c8d58.js": "/ogsl/precache-manifest.027278d5ba262489294ddcdadc6c8d58.js",
     "service-worker.js": "/ogsl/service-worker.js",
-    "static/css/main.bc80f1a7.chunk.css.map": "/ogsl/static/css/main.bc80f1a7.chunk.css.map",
+    "static/css/main.ffca34c5.chunk.css.map": "/ogsl/static/css/main.ffca34c5.chunk.css.map",
     "static/js/2.c6d3a776.chunk.js.LICENSE.txt": "/ogsl/static/js/2.c6d3a776.chunk.js.LICENSE.txt",
     "static/media/now-ui-kit.scss?v=1.4.0": "/ogsl/static/media/nucleo-outline.8ebec31f.woff2",
     "static/media/ogsl_1.jpg": "/ogsl/static/media/ogsl_1.a313eddf.jpg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.52ce04a8.js",
     "static/js/2.c6d3a776.chunk.js",
-    "static/css/main.bc80f1a7.chunk.css",
-    "static/js/main.923c3583.chunk.js"
+    "static/css/main.ffca34c5.chunk.css",
+    "static/js/main.06030eda.chunk.js"
   ]
 }

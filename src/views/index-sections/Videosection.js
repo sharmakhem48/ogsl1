@@ -74,7 +74,7 @@ function VideoSection() {
                       key={item.src}
                     >
                     <div className='video-container'>
-                   <iframe id='iframe' width='730px' height='500px' src={item.src} frameborder="0" allowfullscreen=""></iframe>
+                   <iframe id='iframe' src={item.src} frameborder="0" allowfullscreen=""></iframe>
                    </div>
                       <div className="carousel-caption d-none d-md-block">
                         <h5>{item.caption}</h5>
