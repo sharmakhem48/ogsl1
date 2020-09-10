@@ -8,7 +8,7 @@ import "assets/scss/now-ui-kit.scss?v=1.4.0";
 
 // pages for this kit
 import Index from "views/Index.js";
-ReactDOM.render(<Router basename={process.env.PUBLIC_URL}>
-  <Index /></Router>,
+ReactDOM.render(
+  <Router basename={process.env.PUBLIC_URL}><Index /></Router>,
   document.getElementById("root")
 );
