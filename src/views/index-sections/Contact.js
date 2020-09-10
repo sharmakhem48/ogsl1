@@ -25,8 +25,8 @@ function Contact() {
       <div className="section contact"
       style={{ backgroundImage:`url(https://cdn.pixabay.com/photo/2016/11/21/17/52/abstract-1846822_960_720.jpg)` }} >
         <Container className="text-center">
-          <Row className="justify-content-md-center">
-            <Col lg="8" md="12">
+          <Row className="justify-content-md-center justify-content-sm-center">
+            <Col>
               <h2 className="title">Contact-us</h2>
               <h5 className="description">
               <span style={spanstyle} color='blue'>+91-98114 68673</span><br/>

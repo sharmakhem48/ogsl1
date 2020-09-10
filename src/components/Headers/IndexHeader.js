@@ -35,7 +35,7 @@ function IndexHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: `url(https://cdn.pixabay.com/photo/2016/03/17/23/07/abstract-1264071_960_720.png)`,
+            backgroundImage: `url(https://cdn.pixabay.com/photo/2014/08/12/20/40/moon-416973_960_720.jpg)`,
           }}
           ref={pageHeader}
         ></div>
