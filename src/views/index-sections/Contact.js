@@ -6,19 +6,6 @@ import { Container, Row, Col } from "reactstrap";
 
 // core components
 
-  const spanstyle={
-    color:'#00FFFF',
-    fontSize:20,
-    fontWeight: 'bold',
-    }
-
-  const copyright ={
-    position: 'absolute',
-    bottom: '8px',
-  right: '16px',
-  fontSize: '10px'
-  }
-
 function Contact() {
   return (
     <div id='contactpage'>
@@ -28,15 +15,13 @@ function Contact() {
           <Row className="justify-content-md-center justify-content-sm-center">
             <Col>
               <h2 className="title">Contact-us</h2>
-              <h5 className="description">
-              <span style={spanstyle} color='blue'>+91-98114 68673</span><br/>
-              <span style={spanstyle}>Opengateschooloflearning.info@gmail.com</span><br/>
-              <span style={spanstyle}>88/3,Aurobindo-Marg,Adhcini,New Delhi-110017</span>
-              </h5>
+              <span id='s1'>+91-98114 68673</span><br/>
+              <span id='s2'>Opengateschooloflearning.info@gmail.com</span><br/>
+              <span id='s3'>88/3,Aurobindo-Marg,Adhcini,New Delhi-110017</span>
             </Col>
           </Row>
         </Container>
-        <div className="et_pb_text_inner" style={copyright} >
+        <div className="et_pb_text_inner" >
         <h5 className="p1"  align='right'>
         © Copyright 2020 Open gate school of learning.&nbsp;All rights reserved.</h5>
       </div>
