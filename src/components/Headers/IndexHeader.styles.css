@@ -3,7 +3,6 @@
 Extra small devices (portrait phones, less than 544px)
 No media query since this is the default in Bootstrap because it is "mobile first"
 */
-span {font-size:1rem;} /*1rem = 16px*/
 /*
 ####################################################
 M E D I A  Q U E R I E S
@@ -16,27 +15,21 @@ Bootstrap 4 breakpoints
 */
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 250px) {
-  span {font-size:0.7rem;} /*1rem = 16px*/
-  div {height: auto;
-  width: auto;}
   .Container {
       display: table;
       color: #4a54f1;
       background :url('https://cdn.pixabay.com/photo/2020/02/06/01/52/frame-4822807_960_720.png');
       padding :200px;
       background-attachment:fixed;
-      background-position: center;
       background-repeat:no-repeat;
       background-size:cover;
-  }
-
+      height:auto;
+}
+  .h1-seo {font-size:1.5rem;
+    align: right;} /*1rem = 16px*/
 }
 
 @media (min-width: 544px) {
-  span {font-size:1rem;
-    display:inline-block;} /*1rem = 16px*/
-  div {height: auto;
-  width: auto;}
   .Container {
       display: table;
       color: #4a54f1;
@@ -47,17 +40,15 @@ Bootstrap 4 breakpoints
       background-repeat:no-repeat;
       background-size:cover;
   }
+  .h1-seo {font-size:1rem;} /*1rem = 16px*/
+
 
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
-  span {font-size:2rem;
-  display:inline-block;}
-  div {height: auto;
-  width: auto;}
   .Container {
-      display: table;
+      align-content: center;
       color: #4a54f1;
       background :url('https://cdn.pixabay.com/photo/2020/02/06/01/52/frame-4822807_960_720.png');
       padding :200px;
@@ -65,16 +56,17 @@ Bootstrap 4 breakpoints
       background-position: center;
       background-repeat:no-repeat;
       background-size:cover;
+      height: auto;
+      width:100%;
   }
+  .h1-seo {font-size:2rem;
+  text-align: center;}
+
  /*1rem = 16px*/
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  span {font-size:2.5rem;
-  display:inline-block;}
-  div {height: auto;
-  width: auto;}
   .Container {
       display: table;
       color: #4a54f1;
@@ -84,16 +76,16 @@ Bootstrap 4 breakpoints
       background-position: center;
       background-repeat:no-repeat;
       background-size:cover;
+      height: auto;
+      width:100%;
   }
+  .h1-seo {font-size:2.5rem;}
+
  /*1rem = 16px*/
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  span {font-size:3rem;
-  display:inline-block;}
-  div {height: auto;
-  width: 100%;}
   .Container {
       display: table;
       color: #4a54f1;
@@ -103,7 +95,11 @@ Bootstrap 4 breakpoints
       background-position: center;
       background-repeat:no-repeat;
       background-size:cover;
+      height: auto;
+      width:100%;
   }
+  .h1-seo {font-size:3rem;}
+
 /*1rem = 16px*/
 }
 

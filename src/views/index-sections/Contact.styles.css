@@ -15,13 +15,13 @@
   */
   /* Small devices (landscape phones, 544px and up) */
   @media (min-width: 250px) {
-    #s1 {font-size: .7rem;
+    #s1 {font-size: .6rem;
       font-weight: bold;
       color:#00FFFF;}
-      #s2 {font-size: .7rem;
+      #s2 {font-size: .6rem;
         font-weight: bold;
         color:#00FFFF;}
-        #s3 {font-size: .7rem;
+        #s3 {font-size: .6rem;
           font-weight: bold;
           color:#00FFFF;}
     .section .contact{
