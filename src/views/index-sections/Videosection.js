@@ -48,14 +48,14 @@ function VideoSection() {
   };
   return (
     <div id='know-us' >
-      <div className="section-video" id="carousel"
+      <div className="section-video" id="video"
       style={{ backgroundImage:`url(https://cdn.pixabay.com/photo/2019/01/26/11/56/flowers-3956074_960_720.jpg)`}}>
         <Container>
           <div className="title">
             <h4 align='center'>CHECK US OUT</h4> <br/><br/>
           </div>
           <Row className="justify-content-center">
-            <Col lg="8" md="10">
+            <Col>
               <Carousel
                 activeIndex={activeIndex}
                 next={next}
@@ -76,9 +76,6 @@ function VideoSection() {
                     <div className='video-container'>
                    <iframe id='iframe' src={item.src} frameborder="0" allowfullscreen=""></iframe>
                    </div>
-                      <div className="carousel-caption d-none d-md-block">
-                        <h5>{item.caption}</h5>
-                      </div>
                     </CarouselItem>
                   );
                 })}

@@ -27,6 +27,7 @@
   /* Small devices (landscape phones, 544px and up) */
   @media (min-width: 250px) {
     .video-container {
+    width:auto;
     position: relative;
     padding-bottom: 70.25%;
     height: 0;
@@ -38,6 +39,7 @@
 
   @media (min-width: 544px) {
     .video-container {
+    width:auto;
     position: relative;
     padding-bottom: 70.25%;
     padding-top: 35px;
@@ -51,6 +53,7 @@
   /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
   @media (min-width: 768px) {
     .video-container {
+    width:auto;
     position: relative;
     padding-bottom: 65.25%;
     padding-top: 5px;
@@ -63,6 +66,7 @@ width:100%;}
   /* Large devices (desktops, 992px and up) */
   @media (min-width: 992px) {
     .video-container {
+    width:auto;
     position: relative;
     padding-bottom: 65.25%;
     padding-top: 5px;
@@ -75,6 +79,7 @@ width:100%;}
   /* Extra large devices (large desktops, 1200px and up) */
   @media (min-width: 1200px) {
     .video-container {
+    width:auto;
     position: relative;
     padding-bottom: 65.25%;
     padding-top: 5px;
