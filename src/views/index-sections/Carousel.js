@@ -69,10 +69,10 @@ function CarouselSection() {
     setActiveIndex(newIndex);
   };
   return (
-      <div className="Carousel" id="carousel">
+      <div className="Carousel" id="gallery">
         <Container>
           <div className="title" Align='center'>
-            <h1 >PHOTO SPOT</h1>
+            <h1 >GALLERY</h1>
           </div>
           <Row className="justify-content-center">
             <Col lg="8" md="12">

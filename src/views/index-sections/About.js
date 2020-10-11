@@ -1,7 +1,7 @@
 import React from "react";
-
 // reactstrap components
 import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
+import './About.styles.css';
 
 // core components
 
@@ -11,8 +11,8 @@ function About() {
         <Container>
           <Row className="justify-content-md-center">
             <Col className="text-center" lg="8" md="12">
-              <h3 className="title">Open Gate School of Learning</h3>
-              <h5 className="description">
+              <h3 className="title">About</h3>
+              <h5 className="description"><br/>
 We are a diverse school where travel and skills are combined to give people
 from all around the world a unique experience. We offer language courses and courses
 on film making, tattooing,

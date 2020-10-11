@@ -10,14 +10,16 @@ function Contact() {
   return (
     <div id='contactpage'>
       <div className="section contact"
-      style={{ backgroundImage:`url(https://cdn.pixabay.com/photo/2016/11/21/17/52/abstract-1846822_960_720.jpg)` }} >
+      style={{ backgroundColor: "maroon" }} >
         <Container className="text-center">
           <Row className="justify-content-md-center justify-content-sm-center">
             <Col>
+            <div className='contents'>
               <h2 className="title">Contact-us</h2>
               <span id='s1'>+91-98114 68673</span><br/>
               <span id='s2'>Opengateschooloflearning.info@gmail.com</span><br/>
               <span id='s3'>88/3,Aurobindo-Marg,Adhcini,New Delhi-110017</span>
+              </div>
             </Col>
           </Row>
         </Container>

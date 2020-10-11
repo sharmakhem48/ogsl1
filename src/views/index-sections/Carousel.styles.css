@@ -2,17 +2,13 @@
     font-size: 10px;
     display: table;
     color: white;
-    background :url("https://cdn.pixabay.com/photo/2018/02/03/08/00/background-3127102_960_720.jpg");
-    padding-top: 20px;
-    padding-bottom: 100px;
+    background-color: #800000 ;
+    padding-top: 30px;
+    padding-bottom: 60px;
     height: 100%;
     width: 100%;
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size:cover;
-    -moz-background-size:cover;
-    background-size: cover;
+}
+
+.Carousel .title {
+  font-family: 'Lato', sans-serif;
 }

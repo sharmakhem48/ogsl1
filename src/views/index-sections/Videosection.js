@@ -1,5 +1,7 @@
 import React from "react";
 import './Video.styles.css';
+import video from '../../assets/ogsl.mp4';
+import ReactPlayer from 'react-player'
 
 
 // reactstrap components
@@ -17,7 +19,7 @@ import {
 
 const items = [
   {
-    src: "https://www.instagram.com/p/CEqZiFoh3vy/embed/?rel=0&amp;autoplay=0&mute=0",
+    src: video,
     altText: "ogsl",
     caption: "ogsl",
   }
@@ -28,6 +30,11 @@ function VideoSection() {
   const [animating, setAnimating] = React.useState(false);
   const onExiting = () => {
     setAnimating(true);
+  };
+
+  const mute = () => {
+    const myvid = document.getElementById('iframe')
+    myvid.mute= true;
   };
   const onExited = () => {
     setAnimating(false);
@@ -48,12 +55,13 @@ function VideoSection() {
   };
   return (
     <div id='know-us' >
-      <div className="section-video" id="video"
-      style={{ backgroundImage:`url(https://cdn.pixabay.com/photo/2019/01/26/11/56/flowers-3956074_960_720.jpg)`}}>
+      <div className="section-video" id="video">
         <Container>
-          <div className="title">
-            <h4 align='center'>CHECK US OUT</h4> <br/><br/>
-          </div>
+        <div>
+        <Row className="justify-content-center">
+        <h4 className='title1' align='center'>OUR WORK</h4> <br/><br/><br/>
+        </Row >
+        </div>
           <Row className="justify-content-center">
             <Col>
               <Carousel
@@ -73,9 +81,9 @@ function VideoSection() {
                       onExited={onExited}
                       key={item.src}
                     >
-                    <div className='video-container'>
-                   <iframe id='iframe' src={item.src} frameborder="0" allowfullscreen=""></iframe>
-                   </div>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe id='iframe' class="embed-responsive-item" src={item.src}></iframe>
+  </div>
                     </CarouselItem>
                   );
                 })}

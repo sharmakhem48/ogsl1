@@ -1,0 +1,14 @@
+.hero {
+	position: relative;
+	z-index: 0;
+
+	background-image: url('https://media.istockphoto.com/photos/think-picture-id483750417?s=2048x2048');
+	background-position: center 35%;
+	background-size: cover;
+
+	+ *,
+	> * {
+		position: relative;
+		z-index: 1;
+	}
+}

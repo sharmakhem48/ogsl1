@@ -1,257 +1,200 @@
-@mixin navbar-responsive() {
-    &.menu-on-left .navbar-translate {
-      flex-direction: row-reverse;
+.navbar{
+    padding-top: $navbar-padding-base;
+    padding-bottom: $navbar-padding-base;
+    min-height: 53px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+
+    a{
+        vertical-align: middle;
+
+        &:not(.btn):not(.dropdown-item){
+            color: $white-color;
+        }
     }
 
-    .navbar{
-        .navbar-nav{
-            margin-top: 53px;
-            position: relative;
-        	  max-height: calc(100vh - 75px);
-        	  min-height: 100%;
-        	  overflow: auto;
+    p{
+        display: inline-block;
+        margin: 0;
+        line-height: 21px;
+        font-weight: inherit;
+        font-size: inherit;
+    }
 
-            &.navbar-logo{
-                top: 0;
-                height: 53px;
+    .navbar-nav{
+        &.navbar-logo{
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 49px;
+            top: -4px;
+        }
+
+        .nav-link.btn{
+            padding: $padding-btn-vertical $padding-btn-horizontal;
+
+            &.btn-lg{
+                padding: $padding-large-vertical $padding-large-horizontal;
+            }
+
+            &.btn-sm{
+                padding: $padding-small-vertical $padding-small-horizontal;
             }
         }
 
-        .dropdown.show .dropdown-menu,
-        .dropdown .dropdown-menu{
-            background-color: transparent;
-            border: 0;
-            transition: none;
-            -webkit-box-shadow: none;
-            box-shadow: none;
-            width: auto;
-            margin: 0 1rem;
-            margin-bottom: 15px;
-            padding-top: 0;
-            height: 125px;
-            overflow-y: scroll;
+        .nav-link:not(.btn){
+            text-transform: uppercase;
+            font-size: $font-size-mini;
+            padding: $padding-base-vertical $padding-base-horizontal;
+            line-height: $line-height-nav-link;
 
-            &:before{
-                display: none;
+            i.fab + p,
+            i.now-ui-icons + p{
+                margin-left: 3px;
+            }
+
+            i.fab,
+            i.now-ui-icons{
+                font-size: 18px;
+                position: relative;
+                top: 3px;
+                text-align: center;
+                width: 21px;
+            }
+
+            i.now-ui-icons{
+                top: 2px;
+                font-size: 16px;
+            }
+
+            &.profile-photo{
+                .profile-photo-small{
+                    width: 27px;
+                    height: 27px;
+                }
+            }
+
+            &.disabled{
+                opacity: .5;
+                color: $white-color;
             }
         }
 
-        .dropdown{
-            .dropdown-item{
-                padding-left: 2.5rem;
-            }
-
-            .dropdown-menu{
-               display: none;
-           }
-
-           &.show .dropdown-menu{
-               display: block;
-           }
-        }
-
-        .dropdown-menu .dropdown-item:focus,
-        .dropdown-menu .dropdown-item:hover{
-            color: $white-color;
+        .nav-item.active .nav-link:not(.btn),
+        .nav-item .nav-link:not(.btn):focus,
+        .nav-item .nav-link:not(.btn):hover,
+        .nav-item .nav-link:not(.btn):active{
+            background-color: $opacity-2;
             border-radius: $border-radius-small;
         }
+    }
 
-        .navbar-translate{
-          width: 100%;
-          position: relative;
-          display: flex;
-          -ms-flex-pack: justify!important;
-          justify-content: space-between!important;
-          -ms-flex-align: center;
-          align-items: center;
-          @include transform-translate-x(0px);
-          @include transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
-        }
+    .logo-container{
+        width: 27px;
+        height: 27px;
+        overflow: hidden;
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 1px solid transparent;
+    }
 
-        .navbar-toggler-bar{
-            display: block;
+    .navbar-brand{
+        text-transform: uppercase;
+        font-size: $font-size-small;
+        padding-top: $padding-base-vertical;
+        padding-bottom: $padding-base-vertical;
+        line-height: $line-height-nav-link;
+    }
+
+    .navbar-toggler{
+        width: 37px;
+        height: 27px;
+        outline: 0;
+        cursor: pointer;
+
+        &.navbar-toggler-left{
             position: relative;
-            width: 22px;
-            height: 1px;
-            border-radius: 1px;
-            background: $white-bg;
+            left: 0;
+            padding-left: 0;
+        }
 
-            & + .navbar-toggler-bar{
-                margin-top: 7px;
+        .navbar-toggler-bar.middle-bar{
+          width: 17px;
+          transition: width .2s linear;
+        }
+
+        &:hover{
+            & .navbar-toggler-bar.middle-bar{
+                width: 22px;
             }
+        }
+    }
 
-            &.bar2{
-                width: 17px;
-                transition: width .2s linear;
+    .button-dropdown{
+        .navbar-toggler-bar:nth-child(2){
+            width: 17px;
+        }
+    }
+
+    &.navbar-transparent{
+        background-color: $transparent-bg !important;
+        box-shadow: none;
+        color: $white-color;
+        padding-top: 20px !important;
+    }
+
+    &.bg-white:not(.navbar-transparent){
+        a:not(.dropdown-item):not(.btn){
+            color: $default-color;
+
+            &.disabled{
+                opacity: .5;
+                color: $default-color;
             }
         }
 
-        &.bg-white:not(.navbar-transparent) .navbar-toggler-bar{
+        .button-bar{
             background: $default-color;
         }
 
+        .nav-item.active .nav-link:not(.btn),
+        .nav-item .nav-link:not(.btn):focus,
+        .nav-item .nav-link:not(.btn):hover,
+        .nav-item .nav-link:not(.btn):active{
+            background-color: $opacity-gray-3;
+        }
+
+        .logo-container{
+            border: 1px solid $default-color;
+        }
     }
-
-    // .bar1,
-    // .bar2,
-    // .bar3 {
-    //   outline: 1px solid transparent;
-    // }
-    // .bar1 {
-    //   top: 0px;
-    //   @include bar-animation($topbar-back);
-    // }
-    // .bar2 {
-    //   opacity: 1;
-    // }
-    // .bar3 {
-    //   bottom: 0px;
-    //   @include bar-animation($bottombar-back);
-    // }
-    // .toggled .bar1 {
-    //   top: 6px;
-    //   @include bar-animation($topbar-x);
-    // }
-    // .toggled .bar2 {
-    //   opacity: 0;
-    // }
-    // .toggled .bar3 {
-    //   bottom: 6px;
-    //   @include bar-animation($bottombar-x);
-    // }
-
-  .top-bar {
-    transform: rotate(0);
-  }
-  .middle-bar {
-    opacity: 1;
-  }
-  .bottom-bar {
-    transform: rotate(0);
-  }
-
-  .top-bar,
-  .middle-bar,
-  .bottom-bar{
-    transition: all 0.2s;
-  }
-
-
-
-  .toggled {
-    .top-bar {
-    transform: rotate(45deg);
-    transform-origin: 0%;
-  }
-    .bottom-bar {
-      transform: rotate(-45deg);
-      transform-origin: 0%;
-    }
-    .middle-bar {
-      opacity: 0;
-    }
-  }
-
-
-
-    //
-    // @include topbar-x-rotation();
-    // @include topbar-back-rotation();
-    // @include bottombar-x-rotation();
-    // @include bottombar-back-rotation();
-    //
-    // @-webkit-keyframes fadeIn {
-    //   0% {opacity: 0;}
-    //   100% {opacity: 1;}
-    // }
-    // @-moz-keyframes fadeIn {
-    //   0% {opacity: 0;}
-    //   100% {opacity: 1;}
-    // }
-    // @keyframes fadeIn {
-    //   0% {opacity: 0;}
-    //   100% {opacity: 1;}
-    // }
 }
 
-@mixin navbar-collapse() {
-    .navbar-collapse{
-        position: fixed;
-        display: block !important;
-        top: 0;
-        height: 100% !important;
-        width: 300px;
-        right: 0;
-        z-index: 1032;
-        visibility: visible;
-        background-color: #999;
-        overflow-y: visible;
-        border-top: none;
-        text-align: left;
+.bg-default{
+    background-color: $default-color !important;
+}
 
-        max-height: none !important;
+.bg-primary{
+    background-color: $primary-color !important;
+}
 
-        @include transform-translate-x(300px);
-        @include transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
+.bg-info{
+    background-color: $info-color !important;
+}
 
-        &:before{
-            background: $brand-primary; /* For browsers that do not support gradients */
-            background: -webkit-linear-gradient($brand-primary 0%, #000 80%); /* For Safari 5.1 to 6.0 */
-            background: -o-linear-gradient($brand-primary 0%, #000 80%); /* For Opera 11.1 to 12.0 */
-            background: -moz-linear-gradient($brand-primary 0%, #000 80%); /* For Firefox 3.6 to 15 */
-            background: linear-gradient($brand-primary 0%, #000 80%); /* Standard syntax (must be last) */
-            @include opacity(.76);
+.bg-success{
+    background-color: $success-color !important;
+}
 
-            display: block;
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            z-index: -1;
-        }
+.bg-danger{
+    background-color: $danger-color !important;
+}
 
-        .navbar-nav:not(.navbar-logo){
-            .nav-link {
-                margin: 0 1rem;
-                margin-top: 0.3125rem;
+.bg-warning{
+    background-color: $warning-color !important;
+}
 
-                &:not(.btn){
-                    color: $white-color !important;
-                }
-            }
-        }
-
-        .dropdown-menu .dropdown-item{
-            color: $white-color;
-        }
-    }
-
-    @include navbar-responsive();
-
-
-    [class*="navbar-expand-"] .navbar-collapse{
-        width: 300px;
-    }
-
-    .wrapper{
-        @include transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
-    }
-
-    #bodyClick{
-        height: 100%;
-        width: 100%;
-        position: fixed;
-        opacity: 1;
-        top: 0;
-        left: auto;
-        right: 300px;
-        content: "";
-        z-index: 9999;
-        overflow-x: hidden;
-        background-color: transparent;
-        @include transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
-    }
-
+.bg-white{
+    background-color: $white-color !important;
 }
