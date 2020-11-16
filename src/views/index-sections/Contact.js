@@ -8,26 +8,27 @@ import { Container, Row, Col } from "reactstrap";
 
 function Contact() {
   return (
-    <div id='contactpage'>
-      <div className="section contact"
-      style={{ backgroundColor: "maroon" }} >
-        <Container className="text-center">
-          <Row className="justify-content-md-center justify-content-sm-center">
-            <Col>
-            <div className='contents'>
-              <h2 className="title">Contact-us</h2>
-              <span id='s1'>+91-98114 68673</span><br/>
-              <span id='s2'>Opengateschooloflearning.info@gmail.com</span><br/>
-              <span id='s3'>88/3,Aurobindo-Marg,Adhcini,New Delhi-110017</span>
-              </div>
+    <div className=" section-download " id="contactpage">
+      <Container className='icons'>
+        <Row className="justify-content-md-center">
+          <Col className="text-center" lg="8" md="12">
+            <h3 className="title">Contact-Us</h3>
+          </Col>
+          <Col className="text-center" lg="8" md="12">
+            <span className="fas fa-phone">
+            <span className='description'>: +91-9811468673</span> </span>
+          </Col>
+          <Col className="text-center" lg="8" md="12" sm="8">
+            <span className="fas fa-envelope">
+            <span className='description'>: Opengateschooloflearning@gmail.com </span></span>
+          </Col>
+          <Col className="text-center" lg="8" md="12">
+            <span className="fas fa-building">
+            <span className='description'>: 88/3,Aurobindo Marg Adchini,New Delhi-110017 </span></span>
             </Col>
-          </Row>
-        </Container>
-        <div className="et_pb_text_inner" >
-        <h5 className="p1"  align='right'>
-        © Copyright 2020 Open gate school of learning.&nbsp;All rights reserved.</h5>
-      </div>
-      </div>
+        </Row>
+        <div class="fixed-bottom copyright">© Copyright 2020 Ogsl. All rights reserved.</div>
+      </Container>
     </div>
   );
 }

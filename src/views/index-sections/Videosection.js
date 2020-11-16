@@ -1,7 +1,6 @@
 import React from "react";
 import './Video.styles.css';
 import video from '../../assets/ogsl.mp4';
-import ReactPlayer from 'react-player'
 
 
 // reactstrap components
@@ -30,11 +29,6 @@ function VideoSection() {
   const [animating, setAnimating] = React.useState(false);
   const onExiting = () => {
     setAnimating(true);
-  };
-
-  const mute = () => {
-    const myvid = document.getElementById('iframe')
-    myvid.mute= true;
   };
   const onExited = () => {
     setAnimating(false);
@@ -81,8 +75,8 @@ function VideoSection() {
                       onExited={onExited}
                       key={item.src}
                     >
-  <div class="embed-responsive embed-responsive-16by9">
-    <iframe id='iframe' class="embed-responsive-item" src={item.src}></iframe>
+  <div className="embed-responsive embed-responsive-16by9">
+    <video id='iframe' className="embed-responsive-item" controls='0' autoplay='0' muted='1' src={item.src} ></video>
   </div>
                     </CarouselItem>
                   );

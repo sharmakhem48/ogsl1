@@ -15,7 +15,7 @@ class Form extends Component {
             review: '',
         };
     }
-    
+
     handleInputChange = (event) =>
     {
         const target = event.target;
@@ -29,7 +29,7 @@ class Form extends Component {
         return (
             <div className="review-form bg-white content-padding block-margin-top">
 
-                <form className={this.state.isActive ? '' : 'hide'} onSubmit={this.props.submitForm}>
+                <form type='multipart/form-data' className={this.state.isActive ? '' : 'hide'} onSubmit={this.props.submitForm}>
 
                     {this.props.validation}
                     <div className="rating">

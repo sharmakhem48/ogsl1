@@ -71,8 +71,8 @@ function CarouselSection() {
   return (
       <div className="Carousel" id="gallery">
         <Container>
-          <div className="title" Align='center'>
-            <h1 >GALLERY</h1>
+          <div className="title" align='center'>
+            <h1 className='heading' >GALLERY</h1>
           </div>
           <Row className="justify-content-center">
             <Col lg="8" md="12">

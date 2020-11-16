@@ -1,162 +1,35 @@
+#contactpage {
+background-color:black;
+padding-top: 10px;
+padding-bottom: 50px;
+padding-bottom: 40px;
+}
 
-  /*
-  Extra small devices (portrait phones, less than 544px)
-  No media query since this is the default in Bootstrap because it is "mobile first"
-  */
-  /*
-  ####################################################
-  M E D I A  Q U E R I E S
-  ####################################################
-  */
+.icons .text-center {
+   padding-top:10px;
+   color:maroon;
+ }
 
-  /*
-  ::::::::::::::::::::::::::::::::::::::::::::::::::::
-  Bootstrap 4 breakpoints
-  */
-  /* Small devices (landscape phones, 544px and up) */
-  @media (min-width: 250px) {
-    #s1 {font-size: .6rem;
-      font-weight: bold;
-      color: white;}
-      #s2 {font-size: .6rem;
-        font-weight: bold;
-        color: white;}
-        #s3 {font-size: .6rem;
-          font-weight: bold;
-          color: white;}
-    .section .contact{
-      background-color: #800000;
-      display: table;
-      color : black;
-      padding-bottom: 100px;
-      background-attachment:fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size:cover;
-      -moz-background-size:cover;}
-      .et_pb_text_inner {position: absolute;
-      bottom: .5rem;
-      right: .5rem;
-      font-size: .3rem;}/*1rem = 16px*/
+.icons .title {
+  color:maroon;
+}
+
+.description {
+   font-family: 'Lato', sans-serif;
+}
+
+.fixed-bottom {
+  color:white;
+  font-size:10px;
+  text-align:right;
+}
+
+@media (max-width:250px){
+  .icons .text-center {font-size:4vw;
   }
+}
 
-  @media (min-width: 544px) {
-    #s1 {font-size: 1rem;
-      font-weight: bold;
-      color: white;}
-      #s2 {font-size: 1rem;
-        font-weight: bold;
-        color: white;}
-        #s3 {font-size: 1rem;
-          font-weight: bold;
-          color: white;}
-    .section .contact{
-      background-color: #800000;
-      display: table;
-      color : black;
-      padding-bottom: 100px;
-      background-attachment:fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size:cover;
-      -moz-background-size:cover;}
-      .et_pb_text_inner{position: absolute;
-      bottom: .3rem;
-     right: .4rem;
-     font-size: .5rem;} /*1rem = 16px*/
+@media (max-width:500px){
+  .icons .text-center {font-size:4vw;
   }
-
-  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-  @media (min-width: 768px) {
-    #s1 {font-size: 1rem;
-      font-weight: bold;
-      color: white;}
-      #s2 {font-size: 1rem;
-        font-weight: bold;
-        color: white;}
-        #s3 {font-size: 1rem;
-          font-weight: bold;
-          color: white;}
-    .section .contact{
-      background-color: #800000;
-      display: table;
-      padding-bottom: 100px;
-      background-attachment:fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size:cover;
-      -moz-background-size:cover;}
-      .et_pb_text_inner{position: absolute;
-      bottom: .5rem;
-     right: 1rem;
-     fontd-size: .5rem;} /*1rem = 16px*/
-  }
-
-  /* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
-    #s1 {font-size: 1rem;
-      font-weight: bold;
-      color: white;}
-      #s2 {font-size: 1rem;
-        font-weight: bold;
-        color: white;}
-        #s3 {font-size: 1rem;
-          font-weight: bold;
-          color: white;}
-    .section .contact{
-      background-color: #800000;
-      display: table;
-      padding-bottom: 100px;
-      height: auto;
-      background-attachment:fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size:cover;
-      -moz-background-size:cover;}
-      .et_pb_text_inner{position: absolute;
-      bottom: .5rem;
-     right: 1rem;
-     font-size: .6rem;}/*1rem = 16px*/
-  }
-
-  /* Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {
-    #s1 {font-size: 1rem;
-      font-weight: bold;
-      color: white;}
-      #s2 {font-size: 1rem;
-        font-weight: bold;
-        color: white;}
-        #s3 {font-size: 1rem;
-          font-weight: bold;
-          color: white;}
-    .section .contact{
-      background-color: #800000;
-      display: table;
-      padding-bottom: 100px;
-      height: auto;
-      background-attachment:fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size:cover;
-      -moz-background-size:cover;} /*1rem = 16px*/
-      .et_pb_text_inner{position: absolute;
-      bottom: .5rem;
-      right: 1rem;
-      font-size: .7rem;}
-  }
-
-  /*
-  ::::::::::::::::::::::::::::::::::::::::::::::::::::
-  Custom media queries
-  */
+}

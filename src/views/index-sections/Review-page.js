@@ -3,7 +3,8 @@ import List from '../../components/List.js';
 import Form from '../../components/Form.js';
 import './review-page.css';
 
-class Reviewpage extends Component {
+
+class Reviewpage extends React.Component {
     constructor(props)
     {
         super(props);
@@ -12,7 +13,19 @@ class Reviewpage extends Component {
           validation: ''
         }
     }
-    renderList = () =>
+
+    componentDidMount() {
+      fetch('http://127.0.0.1:5000/reviewlist')
+      .then(response => response.json())
+      .then(users => this.setState({reviews: users.reverse()}))
+      .catch(error => console.log('I have errored'));
+    }
+
+    refreshPage = () => {
+    		window.location.reload(false);
+    	};
+
+  renderList = () =>
     {
         return <List reviews={this.state.reviews}/>;
     }
@@ -25,7 +38,7 @@ class Reviewpage extends Component {
     submitForm = (event) =>
     {
         event.preventDefault();
-        const reviews = this.state.reviews.slice();
+        const templist = [];
 
         if(event.target.rating.value === '' || event.target.name.value === '' || event.target.review.value === '') {
             this.setState({
@@ -41,24 +54,35 @@ class Reviewpage extends Component {
             validation: ''
         });
 
-        reviews.push({
+        templist.push({
             rating: parseInt(event.target.rating.value),
             name: event.target.name.value,
             review: event.target.review.value,
-            date: new Date()
+            key: new Date()
         });
 
-        this.setState({
-            ...this.state,
-            reviews: reviews,
-            validation: ''
+
+        fetch('http://127.0.0.1:5000/submit',{
+          method:'POST',
+          headers : {'Content-Type':'application/json'},
+          body: JSON.stringify(templist)
+        }).then(function(response) {
+          return response.json();
         });
-    }
+        event.preventDefault();
+
+      this.refreshPage();
+}
+
 
     render()
+
     {
+      const style_component = {
+        paddingTop : '40px'
+      }
         return (
-            <div className="bg-light-gray global-padding-bottom" id='reviews'>
+            <div className="bg-light-gray global-padding-bottom" id='reviews' style={style_component}>
                 <section >
 
                     <header className="hero bg-black text-color-white global-padding-vertical">

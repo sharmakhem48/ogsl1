@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px;
+    padding-top: 90px;
+    justify-content:space-evenly;
+}
+
+.card-title{
+  color:white;
+  font-size:30px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.card {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  height: 110px;
+  background-color: #8B008B;
+}
+
+.card .card-title:hover {
+  color: black;
+}

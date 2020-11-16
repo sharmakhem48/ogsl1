@@ -1,0 +1,32 @@
+.table {
+  padding-top:70px;
+}
+
+.table .table-title {
+  font-family: 'Lato', sans-serif;
+  color: #800000;
+  font-size:30px;
+  text-align: center;
+}
+
+.table .table-content {
+  font-family: 'Lato', sans-serif;
+  border: dashed;
+  border-color: #800000;
+}
+
+.notes {
+  font-family: 'Lato', sans-serif;
+  color: #800000;
+  font-size:15px;
+  text-align: center;
+}
+
+.notes .heading {
+  color:black;
+  font-size: 20px;
+}
+
+.contact-buttons {
+  justify-content: space-between;
+}
