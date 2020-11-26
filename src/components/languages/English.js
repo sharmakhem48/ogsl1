@@ -18,7 +18,7 @@ class English extends React.Component {
     .then(content => this.setState({c1:content}))
     .catch(error => console.log('I have errored'));
   }
-  
+
     render() {
       const {English, columns} = this.state['c1'];
       return (

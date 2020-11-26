@@ -11,19 +11,20 @@ class Courses extends React.Component {
   }
   }
     componentDidMount() {
-      fetch('http://127.0.0.1:5000/courses')
+      fetch('http://122.176.16.34:5000/api/course')
       .then(response => response.json())
-      .then(courses => this.setState({courses: courses}))
+      .then(data => this.setState({courses:data.response.data}))
       .catch(error => console.log('I have errored'));
     }
 
   render() {
     const {courses} = this.state;
+    console.log(courses);
     return (
       <div className="grid-container">
       {
-      courses.map(({id, ...othersCoursesProps}) => (
-        <Curriculum key={id} {...othersCoursesProps} />
+      courses.map((course) => (
+        <Curriculum key={course.id} {...course} />
       ))
     }
 </div>

@@ -1,8 +1,8 @@
+
 #contactpage {
-background-color:black;
 padding-top: 10px;
 padding-bottom: 50px;
-padding-bottom: 40px;
+background-color: #faebd7;
 }
 
 .icons .text-center {
@@ -10,8 +10,12 @@ padding-bottom: 40px;
    color:maroon;
  }
 
-.icons .title {
+.text-center .title {
   color:maroon;
+}
+
+.icons .text-center {
+  padding-top: 20px;
 }
 
 .description {
@@ -19,7 +23,7 @@ padding-bottom: 40px;
 }
 
 .fixed-bottom {
-  color:white;
+  color:black;
   font-size:10px;
   text-align:right;
 }
@@ -31,5 +35,9 @@ padding-bottom: 40px;
 
 @media (max-width:500px){
   .icons .text-center {font-size:4vw;
+  }
+  .icons .title {
+    color:maroon;
+    font-size: 20px;
   }
 }

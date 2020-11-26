@@ -15,9 +15,9 @@ class Reviewpage extends React.Component {
     }
 
     componentDidMount() {
-      fetch('http://127.0.0.1:5000/reviewlist')
+      fetch('http://122.176.16.34:5000/api/review')
       .then(response => response.json())
-      .then(users => this.setState({reviews: users.reverse()}))
+      .then(data => this.setState({reviews: data.response.data}))
       .catch(error => console.log('I have errored'));
     }
 
@@ -38,7 +38,6 @@ class Reviewpage extends React.Component {
     submitForm = (event) =>
     {
         event.preventDefault();
-        const templist = [];
 
         if(event.target.rating.value === '' || event.target.name.value === '' || event.target.review.value === '') {
             this.setState({
@@ -54,15 +53,14 @@ class Reviewpage extends React.Component {
             validation: ''
         });
 
-        templist.push({
+        const templist = {
             rating: parseInt(event.target.rating.value),
             name: event.target.name.value,
-            review: event.target.review.value,
-            key: new Date()
-        });
+            review: event.target.review.value
+        };
 
 
-        fetch('http://127.0.0.1:5000/submit',{
+        fetch('http://122.176.16.34:5000/api/review',{
           method:'POST',
           headers : {'Content-Type':'application/json'},
           body: JSON.stringify(templist)
