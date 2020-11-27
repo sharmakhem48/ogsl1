@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ogsl/static/css/main.739245b2.chunk.css",
-    "main.js": "/ogsl/static/js/main.8f91dd1c.chunk.js",
-    "main.js.map": "/ogsl/static/js/main.8f91dd1c.chunk.js.map",
+    "main.js": "/ogsl/static/js/main.a30dfb56.chunk.js",
+    "main.js.map": "/ogsl/static/js/main.a30dfb56.chunk.js.map",
     "runtime-main.js": "/ogsl/static/js/runtime-main.52ce04a8.js",
     "runtime-main.js.map": "/ogsl/static/js/runtime-main.52ce04a8.js.map",
     "static/js/2.33e83e9f.chunk.js": "/ogsl/static/js/2.33e83e9f.chunk.js",
     "static/js/2.33e83e9f.chunk.js.map": "/ogsl/static/js/2.33e83e9f.chunk.js.map",
     "index.html": "/ogsl/index.html",
-    "precache-manifest.33f418d117802288b3fa7bf879740bf4.js": "/ogsl/precache-manifest.33f418d117802288b3fa7bf879740bf4.js",
+    "precache-manifest.096d1990d417ee86be31558547df9de9.js": "/ogsl/precache-manifest.096d1990d417ee86be31558547df9de9.js",
     "service-worker.js": "/ogsl/service-worker.js",
     "static/css/main.739245b2.chunk.css.map": "/ogsl/static/css/main.739245b2.chunk.css.map",
     "static/js/2.33e83e9f.chunk.js.LICENSE.txt": "/ogsl/static/js/2.33e83e9f.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.52ce04a8.js",
     "static/js/2.33e83e9f.chunk.js",
     "static/css/main.739245b2.chunk.css",
-    "static/js/main.8f91dd1c.chunk.js"
+    "static/js/main.a30dfb56.chunk.js"
   ]
 }
