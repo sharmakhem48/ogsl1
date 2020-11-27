@@ -8,6 +8,10 @@ import "assets/css/bootstrap.min.css";
 // pages for this kit
 import Index from "views/Index.js";
 ReactDOM.render(
-  <Router basename={process.env.PUBLIC_URL}><React.StrictMode><Index /> </React.StrictMode></Router>,
+  <Router>
+  <React.StrictMode>
+  <Index />
+  </React.StrictMode>
+  </Router>,
   document.getElementById("root")
 );

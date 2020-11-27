@@ -22,7 +22,7 @@ const Navigation = (props) => {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/ogsl/" onClick={toggleNavbar}>Home</NavLink>
+              <NavLink href="/" onClick={toggleNavbar}>Home</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/ogsl/#about" onClick={toggleNavbar}>About</NavLink>

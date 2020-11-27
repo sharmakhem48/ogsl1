@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/ogsl/static/css/main.739245b2.chunk.css",
-    "main.js": "/ogsl/static/js/main.b44b67a3.chunk.js",
-    "main.js.map": "/ogsl/static/js/main.b44b67a3.chunk.js.map",
-    "runtime-main.js": "/ogsl/static/js/runtime-main.52ce04a8.js",
-    "runtime-main.js.map": "/ogsl/static/js/runtime-main.52ce04a8.js.map",
-    "static/js/2.33e83e9f.chunk.js": "/ogsl/static/js/2.33e83e9f.chunk.js",
-    "static/js/2.33e83e9f.chunk.js.map": "/ogsl/static/js/2.33e83e9f.chunk.js.map",
-    "index.html": "/ogsl/index.html",
-    "precache-manifest.2660bb4e6ca58429a9467a5259c257ea.js": "/ogsl/precache-manifest.2660bb4e6ca58429a9467a5259c257ea.js",
-    "service-worker.js": "/ogsl/service-worker.js",
-    "static/css/main.739245b2.chunk.css.map": "/ogsl/static/css/main.739245b2.chunk.css.map",
-    "static/js/2.33e83e9f.chunk.js.LICENSE.txt": "/ogsl/static/js/2.33e83e9f.chunk.js.LICENSE.txt",
-    "static/media/ogsl.mp4": "/ogsl/static/media/ogsl.e3bd6a7c.mp4",
-    "static/media/ogsl_1.jpg": "/ogsl/static/media/ogsl_1.a313eddf.jpg",
-    "static/media/ogsl_2.jpg": "/ogsl/static/media/ogsl_2.92c27a23.jpg",
-    "static/media/ogsl_3.jpg": "/ogsl/static/media/ogsl_3.ac7d6e36.jpg",
-    "static/media/ogsl_4.jpg": "/ogsl/static/media/ogsl_4.cbf88039.jpg",
-    "static/media/ogsl_6.jpg": "/ogsl/static/media/ogsl_6.bd409438.jpg",
-    "static/media/ogsl_logo.jpeg": "/ogsl/static/media/ogsl_logo.b53a22d5.jpeg"
+    "main.css": "/static/css/main.739245b2.chunk.css",
+    "main.js": "/static/js/main.8e60aec0.chunk.js",
+    "main.js.map": "/static/js/main.8e60aec0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aa9822fd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aa9822fd.js.map",
+    "static/js/2.5b470d40.chunk.js": "/static/js/2.5b470d40.chunk.js",
+    "static/js/2.5b470d40.chunk.js.map": "/static/js/2.5b470d40.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b26eb24845bbfa6d107f4a041931764a.js": "/precache-manifest.b26eb24845bbfa6d107f4a041931764a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.739245b2.chunk.css.map": "/static/css/main.739245b2.chunk.css.map",
+    "static/js/2.5b470d40.chunk.js.LICENSE.txt": "/static/js/2.5b470d40.chunk.js.LICENSE.txt",
+    "static/media/ogsl.mp4": "/static/media/ogsl.e3bd6a7c.mp4",
+    "static/media/ogsl_1.jpg": "/static/media/ogsl_1.a313eddf.jpg",
+    "static/media/ogsl_2.jpg": "/static/media/ogsl_2.92c27a23.jpg",
+    "static/media/ogsl_3.jpg": "/static/media/ogsl_3.ac7d6e36.jpg",
+    "static/media/ogsl_4.jpg": "/static/media/ogsl_4.cbf88039.jpg",
+    "static/media/ogsl_6.jpg": "/static/media/ogsl_6.bd409438.jpg",
+    "static/media/ogsl_logo.jpeg": "/static/media/ogsl_logo.b53a22d5.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.52ce04a8.js",
-    "static/js/2.33e83e9f.chunk.js",
+    "static/js/runtime-main.aa9822fd.js",
+    "static/js/2.5b470d40.chunk.js",
     "static/css/main.739245b2.chunk.css",
-    "static/js/main.b44b67a3.chunk.js"
+    "static/js/main.8e60aec0.chunk.js"
   ]
 }
