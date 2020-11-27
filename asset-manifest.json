@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.884720c3.chunk.css",
+    "main.js": "/static/js/main.0b862da2.chunk.js",
+    "main.js.map": "/static/js/main.0b862da2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aa9822fd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aa9822fd.js.map",
+    "static/js/2.0eeb0a7c.chunk.js": "/static/js/2.0eeb0a7c.chunk.js",
+    "static/js/2.0eeb0a7c.chunk.js.map": "/static/js/2.0eeb0a7c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b944618a8121be00f17a9714178561de.js": "/precache-manifest.b944618a8121be00f17a9714178561de.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.884720c3.chunk.css.map": "/static/css/main.884720c3.chunk.css.map",
+    "static/js/2.0eeb0a7c.chunk.js.LICENSE.txt": "/static/js/2.0eeb0a7c.chunk.js.LICENSE.txt",
+    "static/media/ogsl.mp4": "/static/media/ogsl.e3bd6a7c.mp4",
+    "static/media/ogsl_1.jpg": "/static/media/ogsl_1.a313eddf.jpg",
+    "static/media/ogsl_2.jpg": "/static/media/ogsl_2.92c27a23.jpg",
+    "static/media/ogsl_3.jpg": "/static/media/ogsl_3.ac7d6e36.jpg",
+    "static/media/ogsl_4.jpg": "/static/media/ogsl_4.cbf88039.jpg",
+    "static/media/ogsl_6.jpg": "/static/media/ogsl_6.bd409438.jpg",
+    "static/media/ogsl_logo.jpeg": "/static/media/ogsl_logo.b53a22d5.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa9822fd.js",
+    "static/js/2.0eeb0a7c.chunk.js",
+    "static/css/main.884720c3.chunk.css",
+    "static/js/main.0b862da2.chunk.js"
+  ]
+}
