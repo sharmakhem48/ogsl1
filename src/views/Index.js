@@ -32,10 +32,10 @@ class Index extends React.Component {
     <Navigation />
     </div>
     <Switch>
-    <Route exact path='/' component={Homepage} />
-    <Route exact path='/reviews' component={Reviewpage} />
-    <Route  exact path='/courses' component={Courses} />
-    <Route exact path='/courses/:id' component={Course} />
+    <Route exact path='/ogsl1' component={Homepage} />
+    <Route exact path='/ogsl1/reviews' component={Reviewpage} />
+    <Route  exact path='/ogsl1/courses' component={Courses} />
+    <Route exact path='/ogsl1/courses/:id' component={Course} />
     </Switch>
   </div>
   );

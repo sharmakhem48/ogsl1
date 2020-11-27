@@ -14,7 +14,7 @@ class Course extends React.Component {
 
   componentDidMount() {
     const courseId = this.props.match.params.id;
-    fetch(`https://122.176.16.34:5001/api/course/${courseId}`)
+    fetch(`http://122.176.16.34:5000/api/course/${courseId}`)
     .then(response => response.json())
     .then(data => this.setState({c1:data.response.data}))
     .catch(error => console.log('I have errored'));

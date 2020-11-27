@@ -17,24 +17,24 @@ const Navigation = (props) => {
     <ClickAwayListener onClickAway={handleClickAway}>
     <div>
       <Navbar className='navbar fixed-top navbar-light'>
-        <NavbarBrand  href="/" className="mr-auto">OGSL</NavbarBrand>
+        <NavbarBrand  href="/ogsl1" className="mr-auto">OGSL</NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/" onClick={toggleNavbar}>Home</NavLink>
+              <NavLink href="/ogsl1" onClick={toggleNavbar}>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#about" onClick={toggleNavbar}>About</NavLink>
+              <NavLink href="/ogsl1/#about" onClick={toggleNavbar}>About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#contactpage" onClick={toggleNavbar}>Contact</NavLink>
+              <NavLink href="/ogsl1/#contactpage" onClick={toggleNavbar}>Contact</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/reviews" onClick={toggleNavbar}>Reviews</NavLink>
+              <NavLink href="/ogsl1/reviews" onClick={toggleNavbar}>Reviews</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/courses" onClick={toggleNavbar}>Courses</NavLink>
+              <NavLink href="/ogsl1/courses" onClick={toggleNavbar}>Courses</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
