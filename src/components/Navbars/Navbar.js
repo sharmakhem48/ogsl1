@@ -22,19 +22,19 @@ const Navigation = (props) => {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/ogsl" onClick={toggleNavbar}>Home</NavLink>
+              <NavLink href="/ogsl/" onClick={toggleNavbar}>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#about" onClick={toggleNavbar}>About</NavLink>
+              <NavLink href="/ogsl/#about" onClick={toggleNavbar}>About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#contactpage" onClick={toggleNavbar}>Contact</NavLink>
+              <NavLink href="/ogsl/#contactpage" onClick={toggleNavbar}>Contact</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/reviews" onClick={toggleNavbar}>Reviews</NavLink>
+              <NavLink href="/ogsl/reviews" onClick={toggleNavbar}>Reviews</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/courses" onClick={toggleNavbar}>Courses</NavLink>
+              <NavLink href="/ogsl/courses" onClick={toggleNavbar}>Courses</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
