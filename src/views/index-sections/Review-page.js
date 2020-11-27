@@ -15,7 +15,7 @@ class Reviewpage extends React.Component {
     }
 
     componentDidMount() {
-      fetch('http://122.176.16.34:5000/api/review')
+      fetch('https://122.176.16.34:5000/api/review')
       .then(response => response.json())
       .then(data => this.setState({reviews: data.response.data}))
       .catch(error => console.log('I have errored'));
