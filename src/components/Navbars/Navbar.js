@@ -25,16 +25,16 @@ const Navigation = (props) => {
               <NavLink href="/" onClick={toggleNavbar}>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/ogsl/#about" onClick={toggleNavbar}>About</NavLink>
+              <NavLink href="/#about" onClick={toggleNavbar}>About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/ogsl/#contactpage" onClick={toggleNavbar}>Contact</NavLink>
+              <NavLink href="/#contactpage" onClick={toggleNavbar}>Contact</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/ogsl/reviews" onClick={toggleNavbar}>Reviews</NavLink>
+              <NavLink href="/reviews" onClick={toggleNavbar}>Reviews</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/ogsl/courses" onClick={toggleNavbar}>Courses</NavLink>
+              <NavLink href="/courses" onClick={toggleNavbar}>Courses</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
