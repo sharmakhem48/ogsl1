@@ -10,7 +10,7 @@ background-color: #faebd7;
    color:maroon;
  }
 
-.text-center .title {
+.text-center .title1 {
   color:maroon;
 }
 
@@ -28,6 +28,11 @@ background-color: #faebd7;
   text-align:right;
 }
 
+.test {
+background-color: yellow;
+padding-left: 50px;
+}
+
 @media (max-width:250px){
   .icons .text-center {font-size:4vw;
   }
@@ -40,4 +45,12 @@ background-color: #faebd7;
     color:maroon;
     font-size: 20px;
   }
+}
+
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
 }

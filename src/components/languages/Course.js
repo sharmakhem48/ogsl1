@@ -53,7 +53,7 @@ class Course extends React.Component {
                                 <a  href="https://www.instagram.com/firangitattoostudio/"
                                 className="btn-floating btn-lg btn-ins" type="button" role="button"><i className="fab fa-instagram"></i></a>
                                 <a href="https://www.youtube.com/watch?v=8_lQtJfR070&feature=youtu.be"
-                                className="btn-floating btn-lg btn-yt" type="button" role="button"><i class="fab fa-youtube"></i></a>
+                                className="btn-floating btn-lg btn-yt" type="button" role="button"><i className="fab fa-youtube"></i></a>
                                 </div >
         </div>)
       } else if (this.state.c1.name === "IELTS") {
