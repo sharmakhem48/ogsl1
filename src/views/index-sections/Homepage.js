@@ -7,6 +7,7 @@ import ResponsivePlayer from "./Videosection.js";
 import Contact from "./Contact.js";
 import About from "./About.js";
 import Reviewpage from './Review-page.js';
+import Offers from './Offers.js';
 
 
 
@@ -17,6 +18,7 @@ const Homepage =() => {
       <Carousel/>
       <ResponsivePlayer />
       <About />
+      <Offers />
       <Contact />
       </div>
   );

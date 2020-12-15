@@ -15,7 +15,7 @@ class Reviewpage extends React.Component {
     }
 
     componentDidMount() {
-      fetch('http://122.176.16.34:5000/api/review')
+      fetch('http://api.ogsl.in/api/review')
       .then(response => response.json())
       .then(data => this.setState({reviews: data.response.data}))
       .catch(error => console.log('I have errored'));
@@ -60,7 +60,7 @@ class Reviewpage extends React.Component {
         };
 
 
-        fetch('http://122.176.16.34:5000/api/review',{
+        fetch('http://api.ogsl.in/api/review',{
           method:'POST',
           headers : {'Content-Type':'application/json'},
           body: JSON.stringify(templist)

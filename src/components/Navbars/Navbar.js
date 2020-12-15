@@ -17,24 +17,27 @@ const Navigation = (props) => {
     <ClickAwayListener onClickAway={handleClickAway}>
     <div>
       <Navbar className='navbar fixed-top navbar-light'>
-        <NavbarBrand  href="/ogsl1" className="mr-auto">OGSL</NavbarBrand>
+        <NavbarBrand  href="/" className="mr-auto">OGSL</NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/ogsl1" onClick={toggleNavbar}>Home</NavLink>
+              <NavLink href="/" onClick={toggleNavbar}>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/ogsl1/#about" onClick={toggleNavbar}>About</NavLink>
+              <NavLink href="/#about" onClick={toggleNavbar}>About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/ogsl1/#contactpage" onClick={toggleNavbar}>Contact</NavLink>
+              <NavLink href="/#contactpage" onClick={toggleNavbar}>Contact</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/ogsl1/reviews" onClick={toggleNavbar}>Reviews</NavLink>
+              <NavLink href="/reviews" onClick={toggleNavbar}>Reviews</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/ogsl1/courses" onClick={toggleNavbar}>Courses</NavLink>
+              <NavLink href="/courses" onClick={toggleNavbar}>Courses</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/#offers" onClick={toggleNavbar}>Offers on courses</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

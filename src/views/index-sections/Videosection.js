@@ -49,7 +49,7 @@ function VideoSection() {
   };
   return (
     <div id='know-us' >
-      <div className="section-video" id="video">
+      <div className="video-section" id="video">
         <Container>
         <div>
         <Row className="justify-content-center">

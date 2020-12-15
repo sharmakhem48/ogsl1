@@ -12,7 +12,7 @@ class Courses extends React.Component {
   }
 
     componentDidMount() {
-      fetch('http://122.176.16.34:5000/api/course')
+      fetch('http://api.ogsl.in/api/course')
       .then(response => response.json())
       .then(data => this.setState({courses:data.response.data}))
       .catch(error => console.log('I have errored'));

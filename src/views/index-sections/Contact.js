@@ -39,7 +39,7 @@ function Contact() {
         <i className="fab fa-facebook fa-2x" style={{'color':'blue'}}/></a>
         </Col>
         </Row>
-        <div class="fixed-bottom copyright">© Copyright 2020 Ogsl. All rights reserved.</div>
+        <div class="fixed-bottom copyright">© Copyright 2020 Ogsl.All rights reserved.</div>
       </Container>
     </div>
   );
