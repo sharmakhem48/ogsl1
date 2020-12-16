@@ -1,5 +1,5 @@
-.video-section {
-  padding-top: 50px;
+.container-fluid.video-section {
+  padding-top: 20px;
   padding-bottom: 50px;
   background-color: #f5f2d0;
 }

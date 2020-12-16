@@ -26,3 +26,16 @@
 .card .card-title:hover {
   color: black;
 }
+
+@media (max-width:300px){
+  .card-title {
+    font-size:20px;
+  }
+  .grid-container {
+      display: grid;
+      grid-template-columns: 2fr;
+      grid-gap: 10px;
+      padding-top: 90px;
+      justify-content:space-evenly;
+  }
+}

@@ -48,10 +48,8 @@ function VideoSection() {
     setActiveIndex(newIndex);
   };
   return (
-    <div id='know-us' >
-      <div className="video-section" id="video">
-        <Container>
-        <div>
+        <div className='container-fluid video-section'>
+        <div className='contents'>
         <Row className="justify-content-center">
         <h4 className='title1' align='center'>OUR WORK</h4> <br/><br/><br/>
         </Row >
@@ -84,9 +82,7 @@ function VideoSection() {
               </Carousel>
             </Col>
           </Row>
-        </Container>
-      </div>
-    </div>
+        </div>
   );
 }
 
