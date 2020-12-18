@@ -1,11 +1,11 @@
-.container-fluid.video-section {
-  padding-top: 20px;
-  padding-bottom: 50px;
-  background-color: #f5f2d0;
+.inner-video-section {
+  padding: 40px;
 }
+
  .title1 {
    font-family: 'Lato', sans-serif;
    font-size: 30px;
+   padding-top:20px;
    color: #800000;
  }
 
@@ -15,10 +15,10 @@
  }
 
  @media (max-width:350px){
-   .title1 {font-size:20px;
+   .title1 {font-size:18px;
    }
  }
  @media (max-width:250px){
-   .title1 {font-size:20px;
+   .title1 {font-size:18px;
    }
  }

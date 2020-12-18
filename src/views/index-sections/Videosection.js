@@ -48,12 +48,9 @@ function VideoSection() {
     setActiveIndex(newIndex);
   };
   return (
-        <div className='container-fluid video-section'>
-        <div className='contents'>
-        <Row className="justify-content-center">
-        <h4 className='title1' align='center'>OUR WORK</h4> <br/><br/><br/>
-        </Row >
-        </div>
+      <div className='video-section' style={{'background-color':'#F5F2D0'}}>
+      <h4 className='title1' align='center'>OUR WORK</h4>
+      <div className='inner-video-section'>
           <Row className="justify-content-center">
             <Col>
               <Carousel
@@ -82,6 +79,7 @@ function VideoSection() {
               </Carousel>
             </Col>
           </Row>
+          </div>
         </div>
   );
 }
