@@ -1,12 +1,14 @@
 .inner-video-section {
-  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
- .title1 {
+ .video-section-title {
    font-family: 'Lato', sans-serif;
    font-size: 30px;
-   padding-top:20px;
+   padding-top:25px;
    color: #800000;
+   font-weight: bold;
  }
 
  @media (max-width:500px){

@@ -17,7 +17,6 @@ const Navigation = (props) => {
     <ClickAwayListener onClickAway={handleClickAway}>
     <div>
       <Navbar className='navbar fixed-top navbar-light'>
-        <NavbarBrand  href="/" className="mr-auto">OGSL</NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
@@ -28,13 +27,13 @@ const Navigation = (props) => {
               <NavLink href="/#about" onClick={toggleNavbar}>About</NavLink>
             </NavItem>
             <NavItem>
+              <NavLink href="/courses" onClick={toggleNavbar}>Courses</NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink href="/#contactpage" onClick={toggleNavbar}>Contact</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/reviews" onClick={toggleNavbar}>Reviews</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/courses" onClick={toggleNavbar}>Courses</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/#offers" onClick={toggleNavbar}>Offers on courses</NavLink>

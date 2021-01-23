@@ -11,13 +11,6 @@ import Homepage from "./index-sections/Homepage.js";
 import Reviewpage from './index-sections/Review-page.js';
 import Courses from './index-sections/Courses.js';
 import Course from '../components/languages/Course.js';
-/*import English from '../components/languages/English.js';
-import Hindi from '../components/languages/Hindi.js';
-import Spanish from '../components/languages/Spanish.js';
-import German from '../components/languages/German.js';
-import IELTS from '../components/languages/IELTS.js';
-import Tattoo from '../components/languages/Tattoo-Art.js';
-import Sketching from '../components/languages/Sketching-Art.js';*/
 
 
 

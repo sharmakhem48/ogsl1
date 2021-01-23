@@ -70,9 +70,9 @@ function CarouselSection() {
   };
   return (
       <div className="Carousel" id="gallery">
-        <Container>
-          <div className="title" align='center'>
-            <h1 className='heading' >GALLERY</h1>
+        <Container className='gallery-page-layout'>
+          <div className="gallery-title" align='center'>
+            GALLERY
           </div>
           <Row className="justify-content-center">
             <Col lg="8" md="12">

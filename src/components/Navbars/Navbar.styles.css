@@ -1,5 +1,5 @@
 .navbar  {
-    background-color: lightgreen;
+    background-color: #FF6347;
 
 }
 .navbar .navbar-brand {
@@ -11,4 +11,6 @@
 .navbar .nav-item.active .nav-link,
 .navbar .nav-item:hover .nav-link {
     color: #ffffff;
+    font-weight: Bold;
+    font-size: 30px;
 }

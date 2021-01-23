@@ -49,7 +49,7 @@ function VideoSection() {
   };
   return (
       <div className='video-section' style={{'background-color':'#F5F2D0'}}>
-      <h4 className='title1' align='center'>OUR WORK</h4>
+      <h4 className='video-section-title' align='center'>OUR WORK</h4>
       <div className='inner-video-section'>
           <Row className="justify-content-center">
             <Col>
