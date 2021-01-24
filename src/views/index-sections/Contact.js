@@ -38,7 +38,7 @@ function Contact() {
       </Col>
       <Col className="text-center" lg="8" md="12">
       <div className='contact-content'>
-      Plot-no:94, Adhchini Village <br/> Aurobindo Marg <br/> 110017
+      Plot-no:94, 1st and 2nd Floor <br/> Adhchini Village <br/> Aurobindo Marg <br/> 110017
       </div>
       </Col>
     </Row>
