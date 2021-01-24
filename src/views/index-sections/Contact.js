@@ -20,6 +20,7 @@ function Contact() {
       <div className='contact-page-title'> Contact us </div>
       </Col>
     </Row>
+    <div className='icons-box'>
     <Row className="justify-content-md-center">
       <Col className="text-center" lg="8" md="12">
       <div className='icons'>
@@ -28,10 +29,12 @@ function Contact() {
       </Col>
       <Col className="text-center" lg="8" md="12">
       <div className='contact-content'>
-      +91-9711647494
+      +91-9811468673
       </div>
       </Col>
     </Row>
+    </div>
+    <div className='icons-box'>
     <Row className="justify-content-md-center">
       <Col className="text-center" lg="8" md="12">
       <div className='icons'>
@@ -44,6 +47,8 @@ function Contact() {
       </div>
       </Col>
     </Row>
+    </div>
+    <div className='icons-box'>
     <Row className="justify-content-md-center">
       <Col className="text-center" lg="8" md="12">
       <div className='icons'>
@@ -56,6 +61,7 @@ function Contact() {
       </div>
       </Col>
     </Row>
+    </div>
     <div className="AA d-flex justify-content-center">
     <div className='social-site-icons'>
     <a className="contact-buttons"  href='https://www.instagram.com/opengateschooloflearning/'>
