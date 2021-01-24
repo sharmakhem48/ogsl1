@@ -5,12 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
 
-// core components
-const style ={
-  color :'black',
-  size:'20px'
-}
-
+// core component
 function Contact() {
   return (
     <div className='contact-page'>

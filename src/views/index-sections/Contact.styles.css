@@ -67,7 +67,7 @@
     opacity:.8;
   }
   .social-site-icons:hover{
-    font-size:12px;
+    font-size:14px;
     transition : 0.2s;
     opacity:.8;
   }
@@ -85,4 +85,12 @@
   .bottomright{
     font-size: 8px
   }
+}
+
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
